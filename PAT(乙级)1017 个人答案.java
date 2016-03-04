@@ -44,10 +44,19 @@ public class Main {
 			}
 			yushu[i]=yushu1;
 		}
-		for(int i=0;i<str.length();i++)
+	List<Integer> list=new ArrayList<Integer>();
+		for(int i=0;i<shang.length;i++)
 		{
-			System.out.print(shang[i]);
-			if(i==str.length()-1)
+			list.add(shang[i]);
+		}
+		if(list.get(0)==0)
+		{
+			list.remove(0);
+		}
+		for(int i=0;i<list.size();i++)
+		{
+			System.out.print(list.get(i));
+			if(i==list.size()-1)
 			{
 				System.out.print(" ");
 			}
