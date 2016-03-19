@@ -1,20 +1,17 @@
 ######函数
 python函数与java区别不大，但是最大的好处是可以返回多个返回值。
-> 函数示例：
-`def  fun:
+函数示例：
+`def  fun:`
 
-    return a,b`
+    `return a,b`
 
 如示例，函数可以返回多个返回值，定义函数只需使用def。
 ######函数式编程
 `map()`：`map()`接受两个参数，一个函数，一个迭代器，`map()`将函数依次作用于与列的每个元素。
-> 如：
+如：
 `l=[range(1,11)]`
-
 `def add(a):`
-
-    return a+1
-    
+    `return a+1`
 `map(add,l)`
 
 结果为将`list`中每个值加1，与此相似的还有`reduce`。`reduce`与`map`相同的是同样传入两个参数，
