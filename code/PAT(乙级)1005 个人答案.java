@@ -57,7 +57,7 @@ public class Main {
 				System.out.print(list.get(i)+" ");
 			}else
 			{
-				System.out.print(list.get(i));
+				//System.out.print(list.get(i));
 			}
 		}
 	}
