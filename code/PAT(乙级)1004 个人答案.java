@@ -31,7 +31,7 @@ public class Main {
 		{
 			if(Integer.parseInt(std[i][2])==score[0])
 			{
-				System.out.println(std[i][0]+" "+std[i][1]);
+				//System.out.println(std[i][0]+" "+std[i][1]);
 			}
 		}
 	}
